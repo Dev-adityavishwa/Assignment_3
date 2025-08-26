@@ -27,10 +27,9 @@ function changeGreeting() {
 
       if (name.trim() !== "") {
         greeting.textContent = "Hello, " + name;
-      } else {
-        greeting.textContent = "Hello, Guest";
-      }
+      } 
     }
+
 
 
 
